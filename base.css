@@ -10,14 +10,21 @@ body {
     background-color: #dedede;
     font-family: "", sans-serif;
     color: #030303;
-    width: 1500px;
+    width: 1250px;
     margin-inline: auto;
 }
 
 header {
     width: 100%;
+    height: 215px;
     display: flex;
     flex-direction: column;
+    margin-block: 16px;
+    position: sticky;
+    background-color: transparent;
+    border: 1px solid #cecece;
+    border-radius: 16px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 #figure-title {
@@ -25,5 +32,44 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px 20px;
+}
+
+#logo {
+    height: 128px;
+}
+
+#title-page {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#navbar {
+    padding-inline: 48px;
+    justify-items: center;
+}
+
+#navbar > ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar > ul > li {
+    margin-inline: 32px;
+}
+
+#navbar > ul > li > a {
+    padding: 8px 16px;
+    background-color: #aaaaaa;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar > ul > li > a.active {
+    background-color: #31daeb;
+    font-weight: 600;
+}
+
+#navbar > ul > li > a:hover {
+    background-color: #d43427;
 }
