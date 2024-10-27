@@ -12,6 +12,7 @@ body {
     color: #030303;
     width: 1250px;
     margin-inline: auto;
+    min-height: 98vh;
 }
 
 header {
@@ -72,4 +73,30 @@ header {
 
 #navbar > ul > li > a:hover {
     background-color: #d43427;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 1250px;
+    height: 75px;
+    display: flex;
+    margin-block: 16px;
+    background-color: transparent;
+    border: 1px solid #cecece;
+    border-radius: 16px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    overflow-y: auto;
+}
+
+footer > p {
+    font-size: 24px;
+}
+
+#copyright {
+    font-size: 32px;
+    font-weight: 600;
 }
