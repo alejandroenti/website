@@ -124,7 +124,8 @@ h2 {
 }
 
 .character-container img {
-    width: 100%;
-    height: auto;
+    width: 300px; /* Ajusta el ancho según lo necesario */
+    height: 300px; /* Ajusta la altura para que todas tengan el mismo tamaño */
+    object-fit: cover; /* Ajusta la imagen para que mantenga su proporción */
     border-radius: 5px;
 }
