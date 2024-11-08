@@ -42,8 +42,8 @@ header {
 }
 
 #title-page {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 #navbar {
@@ -54,6 +54,8 @@ header {
 #navbar > ul {
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    margin-inline: 250px;
 }
 
 #navbar > ul > li {
@@ -96,4 +98,46 @@ footer > p {
 #copyright {
     font-size: 32px;
     font-weight: 600;
+}
+
+.hero {
+    width: 90%;
+    margin-inline: auto;
+    align-items: center;
+    background-color: #aeaeae;
+    display: flex;
+    flex-direction: column;
+    margin-block: 16px;
+    border: 1px solid rgb(181, 178, 178);
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero > h2 {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero > ul {
+    margin-block: 64px;
+    list-style: none;
+    display: flex;
+}
+
+.hero-character {
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.hero-character:hover {
+    width: 350px; 
+}
+
+.hero-character > img {
+    margin: auto;
+    transform:translate(-33%, -10%);
 }
