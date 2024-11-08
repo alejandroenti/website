@@ -17,13 +17,15 @@ body {
 }
 
 header {
+    z-index: 10;
     width: 100%;
     height: 215px;
     display: flex;
     flex-direction: column;
     margin-block: 16px;
     position: sticky;
-    background-color: transparent;
+    top:0px;
+    background-color: #dedede;
     border: 1px solid #cecece;
     border-radius: 16px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
@@ -54,6 +56,8 @@ header {
 #navbar > ul {
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    margin-inline: 250px;
 }
 
 #navbar > ul > li {
