@@ -11,45 +11,71 @@
         <div id="figure-title">
             <figure>
                 <a href="index.html">
-                    <img id="logo" src="images/logo.png"/>
+                    <img id="logo" src="images/logo.png" alt="Logo Star Wars"/>
                 </a>
             </figure>
             <h1 id="title-page">Saga Ficción: Star Wars</h1>
         </div>
         <nav id="navbar">
             <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="#" class="active">Personajes</a>
-                </li>
-                <li>
-                    <a href="#">Productos</a>
-                </li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#" class="active">Personajes</a></li>
+                <li><a href="#">Productos</a></li>
             </ul>
         </nav>
     </header>
-    <h2>Personajes de Star Wars</h2>
 
+    <main>
+        <h2>Personajes de Star Wars</h2>
 
-    <div>
-        <div>
-            <img src="images/darthvader.webp" alt="Imagen del personaje">
-        </div>
-        
-        <div>
+        <!-- Contenedor en cuadrícula para los personajes -->
+        <div class="character-container">
+            <!-- Personaje 1 -->
             <div>
-                <h3>Lider del Imperio Galáctico</h3>
-
-                <p>Aquí va la ocupación o los poderes del personaje.</p>
+                <img src="images/darthvader.webp" alt="Imagen de Darth Vader">
+                <div>
+                    <h3>Darth Vader</h3>
+                    <p>Líder del Imperio Galáctico</p>
+                    <h3>Edad</h3>
+                    <p>Actualmente muerto</p>
+                </div>
             </div>
+
+            <!-- Personaje 2 -->
             <div>
-                <h3>Edad</h3>
-                <p>Actualmente muerto</p>
+                <img src="images/lukesky.jpg" alt="Imagen de Luke Skywalker">
+                <div>
+                    <h3>Luke Skywalker</h3>
+                    <p>Mecánico, Piloto de aeronave, Jedi y líder de la alianza rebelde.</p>
+                    <h3>Edad</h3>
+                    <p>Actualmente muerto</p>
+                </div>
+            </div>
+
+            <!-- Personaje 3 -->
+            <div>
+                <img src="images/princesaleia.jpeg" alt="Imagen de la Princesa Leia">
+                <div>
+                    <h3>Princesa Leia</h3>
+                    <p>Líder de la Alianza Rebelde, diplomática y guerrera.</p>
+                    <h3>Edad</h3>
+                    <p>Actualmente muerta</p>
+                </div>
+            </div>
+
+            <!-- Personaje 4 -->
+            <div>
+                <img src="images/yoda.jpeg" alt="Imagen de Yoda">
+                <div>
+                    <h3>Yoda</h3>
+                    <p>Maestro Jedi, sabio y poderoso en la Fuerza.</p>
+                    <h3>Edad</h3>
+                    <p>900 años al morir</p>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
+
     <footer>
         <p><span id="copyright">©</span> Manel Cambrón & Alejandro López</p>
     </footer>

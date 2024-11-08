@@ -1,0 +1,140 @@
+/* Estilos globales existentes */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #dedede;
+    font-family: "", sans-serif;
+    color: #030303;
+    width: 1250px;
+    margin-inline: auto;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    margin-block: 16px;
+    position: sticky;
+    background-color: transparent;
+    border: 1px solid #cecece;
+    border-radius: 16px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#figure-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+#logo {
+    height: 128px;
+}
+
+#title-page {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#navbar {
+    padding-inline: 48px;
+    justify-items: center;
+}
+
+#navbar > ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar > ul > li {
+    margin-inline: 32px;
+}
+
+#navbar > ul > li > a {
+    padding: 8px 16px;
+    background-color: #aaaaaa;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar > ul > li > a.active {
+    background-color: #31daeb;
+    font-weight: 600;
+}
+
+#navbar > ul > li > a:hover {
+    background-color: #d43427;
+}
+
+footer {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    margin-block: 16px;
+    background-color: transparent;
+    border: 1px solid #cecece;
+    border-radius: 16px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    font-size: 24px;
+}
+
+#copyright {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* Estilos adicionales para cuadrícula de personajes */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.character-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.character-container > div {
+    text-align: center;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    max-width: 200px; /* Ajusta el ancho máximo para el tamaño de cada tarjeta */
+    background-color: #fff;
+}
+
+/* Estilo de imagen para un tamaño uniforme */
+.character-container img {
+    width: 100%;
+    height: 200px; /* Ajusta la altura para que todas tengan el mismo tamaño */
+    object-fit: cover;
+    border-radius: 5px;
+}
+.character-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.character-container > div {
+    width: 200px;
+}
